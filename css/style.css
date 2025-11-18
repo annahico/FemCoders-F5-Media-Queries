@@ -35,20 +35,20 @@ body {
 
 .teal-bg {
     background-color: var(--color-teal);
-    padding: 15px;
-    border: var(--border-black);
+    padding: 10px;
+    /* border: var(--border-black); */
 }
 
 .red-bg {
     background-color: var(--color-red);
-    padding: 15px;
-    border: var(--border-black);
+    padding: 10px;
+    /* border: var(--border-black); */
 }
 
 .black-bg {
     background-color: black;
-    padding: 8px;
-    border: var(--border-black);
+    padding: 10px;
+    /* border: var(--border-black); */
 }
 
 /* ESTRUCTURA (LAYOUT)  */
@@ -65,7 +65,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     /* Logo pequeño, Navbar grande, Registro pequeño */
-    gap: 15px;
+    gap: 10px;
     margin-bottom: 15px;
 }
 
@@ -74,7 +74,7 @@ main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     /* La izquierda es el doble de ancha que la derecha */
-    gap: 15px;
+    gap: 10px;
     min-height: 400px;
 }
 
