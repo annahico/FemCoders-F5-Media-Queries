@@ -12,6 +12,7 @@ body {
     font-size: 32px;
 }
 
+/* COLORES  */
 :root {
     --color-yellow: #f6d068;
     --color-teal: #2b7f87;
@@ -19,7 +20,9 @@ body {
     --border-black: 5px solid black;
 }
 
-/* CLASES DE CAJAS Y COLORES */
+
+/* CLASES GENERALES  */
+
 .box {
     background-color: var(--color-yellow);
     color: #d74531;
@@ -48,8 +51,7 @@ body {
     border: var(--border-black);
 }
 
-/* --- ESTRUCTURA DESKTOP */
-
+/* ESTRUCTURA (LAYOUT)  */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -58,18 +60,20 @@ body {
     gap: 15px;
 }
 
-/* Header */
+/* HEADER */
 .header-top {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    /* Logo pequeño, Navbar grande, Registro pequeño */
     gap: 15px;
     margin-bottom: 15px;
 }
 
-/* Main (Layout original de 2 columnas) */
+/* MAIN  */
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr; /* 2 partes contenido, 1 parte sidebar */
+    grid-template-columns: 2fr 1fr;
+    /* La izquierda es el doble de ancha que la derecha */
     gap: 15px;
     min-height: 400px;
 }
@@ -80,9 +84,10 @@ main {
     gap: 15px;
 }
 
-.articles-grid {
+.article-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* 2 columnas iguales */
     gap: 15px;
 }
 
@@ -98,15 +103,23 @@ main {
     gap: 15px;
 }
 
+/*  FOOTER */
+
 /* =========================================
    MEDIA QUERY PARA TABLET
    (Se activa cuando la pantalla es menor a 768px)
    ========================================= */
 @media (max-width: 768px) {
-    
-    main {
-
+    /* Ajustes para tablets y pantallas medianas */         
+    .header-top {
         grid-template-columns: 1fr;
+        text-align: center;
+        gap: 10px;
     }
-
-}
+    main {
+        grid-template-columns: 1fr; 
+    }
+    .article-grid {
+        grid-template-columns: 1fr; 
+    }
+}    

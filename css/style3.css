@@ -103,10 +103,16 @@ main {
    (Se activa cuando la pantalla es menor a 576px)
    ========================================= */
 @media (max-width: 576px) {
-    
-    main {
-
+    /* Ajustes para tablets y pantallas medianas */         
+    .header-top {
         grid-template-columns: 1fr;
+        text-align: center;
+        gap: 10px;
     }
-
-}
+    main {
+        grid-template-columns: 1fr; 
+    }
+    .article-grid {
+        grid-template-columns: 1fr; 
+    }
+} 
