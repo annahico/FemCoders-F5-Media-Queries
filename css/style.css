@@ -7,82 +7,69 @@
 body {
     background-color: #E5E5E5;
     padding: 20px;
-    font-family: 'Barlow', sans-serif;
+     font-family: 'Barlow', sans-serif;
     font-weight: 700; 
     font-size: 32px;
 }
 
-/* COLORES  */
 :root {
-    --color-yellow: #f8e6af;
-    --color-teal: #307480;
-    --color-red: #cf605a;
+    --color-yellow: #f6d068;
+    --color-teal: #2b7f87;
+    --color-red: #de2e2f;
     --border-black: 5px solid black;
-    --gap-size: 15px;
 }
 
-
-/* CLASES GENERALES  */
+/* CLASES DE CAJAS Y COLORES */
 .box {
- background-color: var(--color-yellow);
-    color: var(--color-text);
+    background-color: var(--color-yellow);
+    color: #d74531;
     padding: 15px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    width: 100%;
+    justify-content: center;
+    text-transform: capitalize;
 }
 
 .teal-bg {
-   background-color: var(--color-teal);
+    background-color: var(--color-teal);
     padding: 15px;
     border: var(--border-black);
-    display: flex;
-    flex-direction: column;
-    gap: var(--gap-size);
 }
 
 .red-bg {
-background-color: var(--color-red);
+    background-color: var(--color-red);
     padding: 15px;
     border: var(--border-black);
-    display: flex;
-    flex-direction: column;
-    gap: var(--gap-size);
 }
 
 .black-bg {
-background-color: black;
+    background-color: black;
     padding: 15px;
     border: var(--border-black);
-    display: flex;
 }
 
-/* ESTRUCTURA (LAYOUT)  */
+/* --- ESTRUCTURA DESKTOP */
+
 .container {
-max-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: var(--gap-size);
+    gap: 15px;
 }
 
-/* HEADER */
+/* Header */
 .header-top {
-    flex-direction: row;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    /* Logo pequeño, Navbar grande, Registro pequeño */
     gap: 15px;
     margin-bottom: 15px;
 }
 
-/* MAIN  */
+/* Main (Layout original de 2 columnas) */
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    /* La izquierda es el doble de ancha que la derecha */
+    grid-template-columns: 2fr 1fr; /* 2 partes contenido, 1 parte sidebar */
     gap: 15px;
     min-height: 400px;
 }
@@ -93,10 +80,9 @@ main {
     gap: 15px;
 }
 
-.article-grid {
+.articles-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* 2 columnas iguales */
     gap: 15px;
 }
 
@@ -112,4 +98,3 @@ main {
     gap: 15px;
 }
 
-/*  FOOTER */

@@ -13,16 +13,16 @@ body {
 }
 
 :root {
-    --color-yellow: #F2D06B;
-    --color-teal: #2A7886;
-    --color-red: #D9453E;
+    --color-yellow: #f6d068;
+    --color-teal: #2b7f87;
+    --color-red: #de2e2f;
     --border-black: 5px solid black;
 }
 
 /* CLASES DE CAJAS Y COLORES */
 .box {
     background-color: var(--color-yellow);
-    color: #D9453E;
+    color: #d74531;
     padding: 15px;
     display: flex;
     align-items: center;
