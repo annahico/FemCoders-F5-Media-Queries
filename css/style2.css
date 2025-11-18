@@ -2,29 +2,27 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    font-weight: bold;
 }
 
 body {
-    background-color: #f0f0f0;
+    background-color: #E5E5E5;
     padding: 20px;
+     font-family: 'Barlow', sans-serif;
+    font-weight: 700; 
+    font-size: 32px;
 }
 
-/* COLORES  */
 :root {
-    --color-yellow: #f8e6af;
-    --color-teal: #307480;
-    --color-red: #cf605a;
+    --color-yellow: #F2D06B;
+    --color-teal: #2A7886;
+    --color-red: #D9453E;
     --border-black: 5px solid black;
 }
 
-
-/* CLASES GENERALES  */
-
+/* CLASES DE CAJAS Y COLORES */
 .box {
     background-color: var(--color-yellow);
-    color: #d43f37;
+    color: #D9453E;
     padding: 15px;
     display: flex;
     align-items: center;
@@ -50,7 +48,8 @@ body {
     border: var(--border-black);
 }
 
-/* ESTRUCTURA (LAYOUT)  */
+/* --- ESTRUCTURA DESKTOP */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -59,20 +58,18 @@ body {
     gap: 15px;
 }
 
-/* HEADER */
+/* Header */
 .header-top {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    /* Logo pequeño, Navbar grande, Registro pequeño */
     gap: 15px;
     margin-bottom: 15px;
 }
 
-/* MAIN  */
+/* Main (Layout original de 2 columnas) */
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    /* La izquierda es el doble de ancha que la derecha */
+    grid-template-columns: 2fr 1fr; /* 2 partes contenido, 1 parte sidebar */
     gap: 15px;
     min-height: 400px;
 }
@@ -83,10 +80,9 @@ main {
     gap: 15px;
 }
 
-.article-grid {
+.articles-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* 2 columnas iguales */
     gap: 15px;
 }
 
@@ -102,4 +98,15 @@ main {
     gap: 15px;
 }
 
-/*  FOOTER */
+/* =========================================
+   MEDIA QUERY PARA TABLET
+   (Se activa cuando la pantalla es menor a 768px)
+   ========================================= */
+@media (max-width: 768px) {
+    
+    main {
+
+        grid-template-columns: 1fr;
+    }
+
+}
