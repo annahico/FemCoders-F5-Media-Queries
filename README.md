@@ -20,7 +20,7 @@ El proyecto consta de una única página (index.html) que muta su estructura vis
 
 ## ⌨️ Tecnologías Utilizadas ⌨️
 
-<img align="right" src="https://media2.giphy.com/media/bGgsc5mWoryfgKBx1u/200w.gif?cid=6c09b952pyhf3ubrmaz4jwnhwbwfp9q5asjg2ygyly6b6uk4&ep=v1_gifs_search&rid=200w.gif&ct=g" width="150" />
+<img align="right" src="https://media2.giphy.com/media/bGgsc5mWoryfgKBx1u/200w.gif?cid=6c09b952pyhf3ubrmaz4jwnhwbwfp9q5asjg2ygyly6b6uk4&ep=v1_gifs_search&rid=200w.gif&ct=g" width="140" />
 
 Para el desarrollo del proyecto se utilizarán las siguientes tecnologías:
 
@@ -49,7 +49,7 @@ The project consists of a single page (index.html) that changes its visual struc
 
 ## ⌨️ Technology ⌨️
 
-<img align="right" src="https://media2.giphy.com/media/bGgsc5mWoryfgKBx1u/200w.gif?cid=6c09b952pyhf3ubrmaz4jwnhwbwfp9q5asjg2ygyly6b6uk4&ep=v1_gifs_search&rid=200w.gif&ct=g" width="150" />
+<img align="right" src="https://media2.giphy.com/media/bGgsc5mWoryfgKBx1u/200w.gif?cid=6c09b952pyhf3ubrmaz4jwnhwbwfp9q5asjg2ygyly6b6uk4&ep=v1_gifs_search&rid=200w.gif&ct=g" width="140" />
 
 The following technologies will be used for the development of the project:
 
@@ -68,7 +68,7 @@ https://github.com/annahico/FemCoders-F5-Media-Queries
 ## Authors :wave:
 
 - **Anna Hidalgo Costa**
-- [GitHub](https://github.com/annahico) - [LinkedIn](https://www.linkedin.com/in/annahico/)
+ [GitHub](https://github.com/annahico) - [LinkedIn](https://www.linkedin.com/in/annahico/)
 
 - **Ingrid López Poveda**
-- [GitHub](https://github.com/Nuclea88) - [LinkedIn](https://www.linkedin.com/in/ingrid-lopez-poveda/)
+ [GitHub](https://github.com/Nuclea88) - [LinkedIn](https://www.linkedin.com/in/ingrid-lopez-poveda/)
